@@ -4,7 +4,7 @@ CSKY is a tool to count shared kmers with Y-unique kmers to detect the absence o
 # Requirements
 CMake 3.1+ and C++/11 capable compiler for DSK use
 
-#Instructions
+# Instructions
 run Step1_get_y_unique_kmers.sh to get unique human kmers that only exists in Chromosome Y from a human reference genome ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/405/GCF_000001405.38_GRCh38.p12/GCF_000001405.38_GRCh38.p12_genomic.fna.gz.
 ```
 nohup ./Step1_get_y_unique_kmers.sh &
